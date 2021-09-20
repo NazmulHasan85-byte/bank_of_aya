@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>practice Document</title>
+</head>
+<body>
+    <p class="text-7xl font-bold text-center">Aya <span class="text-pink-500">Bank</span> pvt.Ltd.</p>
+    <p class="text-4xl text-center mt-3 sm:full">Most Trasted Bank in Bangladesh.</p>
+</body>
+<main>
+    <section class="mb-8">
+        <p class="text-8xl text-center mt-3 sm:full">Let's get some <span class="text-pink-400">Money.</span></p>
+    </section>
+    <section class="grid grid-cols-3 gap-4 w-3/4 mx-auto text-white ">
+        <div class="bg-green-300 p-8 rounded">
+            <p class="text-2xl">Deposit</p>
+            <h2 class="text-4xl">$<span id="diposite-amount">00</span></h2>
+        </div>
+        <div class="bg-blue-300 p-8 rounded">
+            <p class="text-2xl">Withdraw</p>
+            <h2  class="text-4xl">$<span id="withdraw-amount">00</span>  </h2>
+            </div>
+        <div class="bg-yellow-300 p-8 rounded">
+            <p class="text-2xl">Balance</p>
+            <h2 class="text-4xl">$ <span id="total-amount">00</span></h2>
+        </div>
+    </section>
+<!-- Deposite and Withdrow -->
+<section class="grid grid-cols-2 gap-2">
+    <div class="bg-blue-500 mx-auto w-3/4 my-5 shadow">
+        <p class="text-3xl p-3">place Deposite :</p>
+    <input id="Diposite-input" class="border rounded block border-green-500 w-3/4 m-2 p-3 " type="text" placeholder="Dipodit Money">
+    <button id="diposite-btn" class="border rounded bg-gray-200 px-4 py-2 m-3 " >Diposite</button>
+    </div>
+
+    <div class="bg-blue-200 mx-auto w-3/4 my-5 shadow">
+        <p class="text-3xl p-3">Withdraw :</p>
+    <input id="withdraw-input" class="border rounded block border-green-500 w-3/4 m-2 p-3 " type="text" placeholder="withdraw money">
+    <button id="withdraw-btn" class="border rounded bg-yellow-200 px-4 py-2 m-3 " >Withdraw</button>
+    </div>
+</section>
+
+</main>
+
+    <script src="java.js"></script>
+    
+</body>
+</html>
